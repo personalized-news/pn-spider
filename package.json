@@ -1,0 +1,33 @@
+{
+  "name": "pn-spider",
+  "version": "0.0.1",
+  "description": "Crawl news for personalized news.",
+  "license": "MIT",
+  "repository": "personalized-news/pn-spider",
+  "author": {
+    "name": "ZYSzys",
+    "email": "17367077526@163.com",
+    "url": "zyszys.top"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "npm run lint && ava -v",
+    "lint": "prettier --single-quote --write *.js */*.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "mongoose": "5.3.9",
+    "showapi-sdk": "1.0.4"
+  },
+  "devDependencies": {
+    "ava": "0.25.0",
+    "prettier": "*"
+  }
+}
