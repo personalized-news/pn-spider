@@ -13,7 +13,4 @@ let list = [];
 request.post(res => {
   list = res.showapi_res_body.channelList;
   console.log(list);
-  module.exports = {
-    list
-  };
 });

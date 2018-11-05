@@ -9,16 +9,18 @@ mongoose.connect(
 );
 
 const News = mongoose.model('News', {
-  link: String,
+  allList: Array,
   id: String,
-  channelId: String,
-  nid: String,
+  content: String,
   havePic: Boolean,
   pubDate: String,
   title: String,
   source: String,
   imageurls: Array,
-  desc: String
+  channelName: String,
+  link: String,
+  desc: String,
+  channelId: String
 });
 
 module.exports = {

@@ -20,12 +20,12 @@ const newsSettings = {
 const config = {
   channelId: '5572a108b3cdc86cf39001cd',
   channelName: '',
-  title: '足球',
+  title: '',
   page: '1',
-  needContent: '0',
+  needContent: '1',
   needHtml: '0',
-  needAllList: '0',
-  maxResult: '20',
+  needAllList: '1',
+  maxResult: '100',
   id: ''
 };
 
