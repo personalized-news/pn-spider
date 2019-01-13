@@ -8,43 +8,28 @@
 
 > Crawl news for personalized news.
 
+![](/screenshot.png)
 
 ## Install
 
 ```
-$ npm install pn-spider
+$ git clone git@github.com:personalized-news/pn-spider.git
 ```
 
 
 ## Usage
 
-**Install mongodb and open**
+**安装 mongodb 并打开**
+```sh
+mongod
+```
 
+**运行**
 ```sh
 node index.js
 ```
 
-
-## API
-
-### pnSpider(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `Object`
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
+**完成后 ctrl + C 退出**
 
 
 ## License
